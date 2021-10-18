@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "DENTAL SERVICES",
+    "description": "Globally harness multimedia based collaboration and idea haring with backend products.",
+    "img": "https://i.ibb.co/80rskYn/dentist1.jpg",
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "title": "Prosthetics",
+    "description": "Dramatically disseminate standardized metrics after resource-leveling processes.",
+    "img": "https://i.ibb.co/jGWhMLT/dentist2.jpg",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "title": "DENTISTRY",
+    "description": "dentistry is a fantastic career for the future. Just as people will always need doctors.",
+    "img": "https://i.ibb.co/hDq4H0G/dentist3.jpg",
+    "rating": 3
+  },
+  {
+    "id": 4,
+    "title": "DENTAL BRIDGES",
+    "description": "A traditional dental bridge consists of a false tooth or teeth being held in place by dental crowns. ",
+    "img": "https://i.ibb.co/GkJ0C5W/dentist4.jpg",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "title": "CROWNS",
+    "description": "a crown most commonly refers to a dental cap, a type of dental restoration that completely caps.",
+    "img": "https://i.ibb.co/4gcNMzx/dentist5.jpg",
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "title": "INVISALIGN",
+    "description": "invisalign treatment is the clear alternative to metal braces for kids, teens, and adults!",
+    "img": "https://i.ibb.co/pnVDvPn/dentist6.jpg",
+    "rating": 5
+  },
+  {
+    "id": 7,
+    "title": "VENEERS",
+    "description": "veneer is a layer of material placed over a tooth. Veneers can improve the aesthetics of a smile",
+    "img": "https://i.ibb.co/cbkTPHj/dentist7.jpg",
+    "rating": 2
+  },
+  {
+    "id": 8,
+    "title": "TEETH WHITENING",
+    "description": "Distinctively re-engineer revolutionary meta-services and premium architectures.",
+    "img": "https://i.ibb.co/F4YXHqB/dentist8.jpg",
+    "rating": 5
+  }
+]
