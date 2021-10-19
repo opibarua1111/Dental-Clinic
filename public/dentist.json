@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Prof. Dr. Md Ruhul Amin",
+        "qualification": "BDS, DAND, DDS, MS",
+        "expertise": "Dental, Oral & Maxillofacial Specialist",
+        "fee": 1000,
+        "img":"https://image.freepik.com/free-photo/picture-male-doctor-dentist-looking-x-ray-his-office_496169-988.jpg"
+
+    },
+    {
+        "id": 2,
+        "name": "Professor Dr. Nasir Uddin",
+        "qualification": "BDS, MS(OMS)",
+        "expertise": "Dental & Maxillofacial Surgery Specialist",
+        "fee": 900,
+        "img":"https://image.freepik.com/free-photo/picture-young-woman-doctor-dentist-who-analysis-dental-x-ray-orthopantomogram_158595-7655.jpg"
+
+    },
+    {
+        "id": 3,
+        "name": "Prof. Dr. Aslam Mehdi",
+        "qualification": "Ph.D, MS, BDS, FIAOO",
+        "expertise": "Periodontal Plastic & Maxillofacial Surgeon",
+        "fee": 800,
+        "img":"https://image.freepik.com/free-photo/happy-excited-male-medical-doctor-nurse-pointing-finger_171337-15906.jpg"
+
+    },
+    {
+        "id": 4,
+        "name": "Prof. Dr. Sk. Nazrul Islam",
+        "qualification": "BDS, PGT, FAES",
+        "expertise": "American Expert in Root Canal",
+        "fee": 1000,
+        "img":"https://img.freepik.com/free-photo/portrait-doctor-male-medical-specialist-surgeon-radiologist-medical-room-background_116317-6664.jpg"
+
+    },
+    {
+        "id": 5,
+        "name": "Prof. Dr. Md Haider Ali",
+        "qualification": "BDS, BCS, PGT ",
+        "expertise": "Orthodontic Surgery Specialist",
+        "fee": 900,
+        "img":"https://media.istockphoto.com/photos/male-east-indian-doctor-portrait-stock-photo-picture-id1192129265?b=1&k=20&m=1192129265&s=170667a&w=0&h=B0AWdvrTYt2xQwo3Kp-0PRt4gJf49nDlajEFE7tdKAw="
+
+    },
+    {
+        "id": 6,
+        "name": "Dr. Shamim Reza",
+        "qualification": "BDS, DAND, DDS, MS",
+        "expertise": "Cosmetic Dentistery Specialist",
+        "fee": 1000,
+        "img":"https://media.istockphoto.com/photos/portrait-of-mature-male-doctor-wearing-white-coat-standing-in-picture-id1203995945?b=1&k=20&m=1203995945&s=170667a&w=0&h=W5pDpUgxdsBroe9aFgJUzR0Ess8xPUoST1ZjEvVRgEQ="
+
+    },
+    {
+        "id": 7,
+        "name": "Dr. M Khalid Amin",
+        "qualification": "BDS, BCS, MS",
+        "expertise": "Dental Implement & Dentistry",
+        "fee": 800,
+        "img":""
+
+    },
+    {
+        "id": 8,
+        "name": "Dr. Md. Kamrul",
+        "qualification": "BDS, PGT, CPR",
+        "expertise": "Root Canal Specialist",
+        "fee": 900,
+        "img":""
+
+    },
+    {
+        "id": 9,
+        "name": "Prof. Dr. Md Ahtashmul",
+        "qualification": "FCPS, DPMT, PGD",
+        "expertise": "Dental, Oral & Root Canal Specialist",
+        "fee": 1000,
+        "img":""
+
+    },
+    {
+        "id": 10,
+        "name": "Dr. Md Emranul Islam",
+        "qualification": "BDS, MS(OMS)",
+        "expertise": "Dental Surgeon",
+        "fee": 700,
+        "img":""
+
+    },
+    {
+        "id": 11,
+        "name": "Prof. Dr. Golam Chowdhury",
+        "qualification": "BDS, FCPS(OMS)",
+        "expertise": "Dental, Maxillofacial Surgery Specialist",
+        "fee": 900,
+        "img":""
+
+    },
+    {
+        "id": 12,
+        "name": "Dr. Md Shafi Ullah",
+        "qualification": "MSc, DDS, BDS",
+        "expertise": "Root Canal & Dental Surgeon",
+        "fee": 1000,
+        "img":""
+
+    }
+]

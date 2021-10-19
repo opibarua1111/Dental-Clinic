@@ -4,11 +4,10 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import useAuth from '../../../hooks/useAuth';
-import useFirebase from '../../../hooks/useFirebase';
 
 
 const Header = () => {
-    const { user, logOut } = useFirebase();
+    const { user, logOut } = useAuth();
     return (
         <>
             <Navbar variant="dark" fixed="top" sticky="top" collapseOnSelect expand="lg" className="bg-green-600">
@@ -19,15 +18,15 @@ const Header = () => {
                         <Nav.Link as={HashLink} to="/home#home" className="text-white">Home</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#services" className="text-white">Services</Nav.Link>
                         <Nav.Link as={Link} to="/aboutus" className="text-white">About Us</Nav.Link>
-                        <Nav.Link as={Link} to="/team" className="text-white">Team</Nav.Link>
+                        <Nav.Link as={Link} to="/gellary" className="text-white">Gellary</Nav.Link>
                         {user?.email ?
-                            <Button onClick={logOut} variant="light">Logout</Button>
+                            <Button onClick={logOut} className="text-white" variant="light">Logout</Button>
                             :
-                            <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                            <Nav.Link className="text-white" as={Link} to="/login">Login</Nav.Link>
                         }
-                        {/* <Navbar.Text>
+                        {user?.email && <Navbar.Text>
                             Signed in as: <a href="#login">{user?.displayName}</a>
-                        </Navbar.Text> */}
+                        </Navbar.Text>}
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

@@ -34,7 +34,7 @@ const Banner = () => {
                     src={banner3}
                     alt="Third slide"
                 />
-                <Carousel.Caption className="banner_description">
+                <Carousel.Caption className="banner_description align-middle">
                     <h2 className="text-5xl text-white">The Dental Professionals</h2>
                     <p className=" text-white">DentiCare Studio is a well-established dentist in the heart of Budapest providing excellent dentistry for the whole family. Our priority is making you feel comfortable and at ease in a safe and welcoming environment.</p>
                 </Carousel.Caption>
