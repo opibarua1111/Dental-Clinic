@@ -3,10 +3,11 @@ import { Carousel } from 'react-bootstrap';
 import banner1 from '../../../images/banner/banner1.jpg';
 import banner2 from '../../../images/banner/banner2.jpg';
 import banner3 from '../../../images/banner/banner3.jpg';
+import './Banner.css';
 const Banner = () => {
     return (
         <Carousel variant="dark">
-            <Carousel.Item className="banner_item">
+            <Carousel.Item className="banner_item w-full">
                 <img
                     className="d-block w-screen h-screen"
                     src={banner1}
@@ -17,7 +18,7 @@ const Banner = () => {
                     <p className="text-white">Donec libero dui, dapibus non leo et, molestie faucibus risus. In fermentum tortor et posuere laoreet. Morbi pharetra velit ut varius semper. Donec accumsan et lacus at posuere.</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item className="banner_item">
+            <Carousel.Item className="banner_item w-full">
                 <img
                     className="d-block w-screen h-screen"
                     src={banner2}
@@ -28,7 +29,7 @@ const Banner = () => {
                     <p className=" text-white">DentalCare is most focused in helping you discover your most beauiful smile as quickly as possible. Get your best looking smile now!</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item className="banner_item">
+            <Carousel.Item className="banner_item w-full ">
                 <img
                     className="d-block w-screen h-screen"
                     src={banner3}

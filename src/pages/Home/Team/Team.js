@@ -7,15 +7,19 @@ const Team = () => {
             <div className="mb-10 container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-12">
                 <div>
                     <img className="rounded-full" src="https://i.ibb.co/sHgvPKv/team-1.jpg" alt="" />
+                    <h3>CHRISTOPHER</h3>
                 </div>
                 <div>
                     <img className="rounded-full" src="https://i.ibb.co/gZh8HN3/team-2.jpg" alt="" />
+                    <h3>ROBERT</h3>
                 </div>
                 <div>
                     <img className="rounded-full" src="https://i.ibb.co/9NGTSmJ/team-3.jpg" alt="" />
+                    <h3>MICHAEL</h3>
                 </div>
                 <div>
                     <img className="rounded-full" src="https://i.ibb.co/nMLV3KV/team-4.jpg" alt="" />
+                    <h3>JAMES</h3>
                 </div>
             </div>
         </div>

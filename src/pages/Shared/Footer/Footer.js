@@ -1,6 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMailBulk, faMapMarker, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
     const fb = <i className="fab fa-facebook-square"></i>
@@ -8,7 +6,8 @@ const Footer = () => {
     const google = <i class="fab fa-google-plus-g"></i>
     return (
         <div className="w-full h-60 bg-green-300 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 lg:gap-5">
-            <div className="">
+            <div className=" text-center">
+                <img className=" text-center" src="https://i.ibb.co/wKZ2JX3/dental-logo.png" alt="" />
                 <h1 className="text-5xl pt-3 text-white bold">DENTAL CLINIC</h1>
                 <p className="text-sm pt-2 text-gray-700">We’re a friendly team of dentists working together to ensure that you receive the best treatment that you require.</p>
             </div>

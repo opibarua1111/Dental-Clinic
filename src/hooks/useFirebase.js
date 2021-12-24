@@ -4,7 +4,6 @@ import initializeAuthentication from "../pages/Login/Firebase/Firebase.init";
 
 initializeAuthentication();
 
-
 const useFirebase = () => {
     const [user, setUser] = useState({});
     const [email, setEmail] = useState('');
@@ -17,6 +16,7 @@ const useFirebase = () => {
     const signInUsingGoogle = () => {
         return signInWithPopup(auth, googleProvider);
     }
+
     useEffect(() => {
         const unsubscribed = onAuthStateChanged(auth, user => {
             if (user) {
