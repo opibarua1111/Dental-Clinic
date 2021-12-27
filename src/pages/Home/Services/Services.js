@@ -8,7 +8,7 @@ const Services = () => {
     return (
         <div className="mb-5">
             <h2 className="text-4xl font-semibold mt-3">Our Services</h2>
-            <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-12" id="services">
+            <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12" id="services">
                 {
                     services.map(service => <Service
                         key={service.id}

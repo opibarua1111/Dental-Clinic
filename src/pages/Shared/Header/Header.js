@@ -10,7 +10,7 @@ const Header = () => {
     const { user, logOut } = useAuth();
     return (
         <>
-            <Navbar variant="dark" fixed="top" sticky="top" collapseOnSelect expand="lg" className="bg-green-600">
+            <Navbar variant="dark" fixed="top" sticky="top" collapseOnSelect expand="lg" className="bg-green-400">
                 <Container>
                     <Navbar.Brand href="#home">
                         <img src="https://i.ibb.co/wKZ2JX3/dental-logo.png" width="20%" className="inline-block" alt="" />Dental
@@ -22,9 +22,9 @@ const Header = () => {
                         <Nav.Link as={Link} to="/aboutus" className="text-white">About Us</Nav.Link>
                         <Nav.Link as={Link} to="/gellary" className="text-white">Gellary</Nav.Link>
                         {user?.email ?
-                            <Button onClick={logOut} className="px-3 py-1 rounded-full bg-white text-lg font-medium text-green-600 hover:text-green-800" variant="light"><i class="fas fa-sign-out-alt pl-1"></i> Logout</Button>
+                            <Button onClick={logOut} className="px-3 py-1 rounded-full bg-white text-lg font-medium text-green-400 hover:text-green-600" variant="light"><i class="fas fa-sign-out-alt pl-1"></i> Logout</Button>
                             :
-                            <Nav.Link className="px-3 py-1 rounded-full bg-white text-lg font-medium text-green-600 hover:text-green-800" as={Link} to="/login"><i class="fas fa-sign-in-alt pl-1"></i> Login</Nav.Link>
+                            <Nav.Link className="px-3 py-1 rounded-full bg-white text-lg font-medium text-green-400 hover:text-green-600" as={Link} to="/login"><i class="fas fa-sign-in-alt pl-1"></i> Login</Nav.Link>
                         }
                         {user?.email && <Navbar.Text>
                             Signed in as: <a href="#login">{user?.displayName}</a>
